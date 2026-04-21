@@ -30,7 +30,7 @@ static const char *status_message_table[] = {
 
 static void drop_warning(int warning)
 {
-        //TODO
+        fprintf(stderr, "Warning: %s\n", status_message_table[warning]);
 }
 
 static int clear_context(Context *context, int error_code)
