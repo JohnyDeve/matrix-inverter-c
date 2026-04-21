@@ -137,15 +137,9 @@ int main(int argc, char *argv[])
                 return clear_context(context, ERROR_OUT_OF_MEMORY);
         }
 
-        for (size_t i = 0; i < H; i++)
+        if (read_filedata(context->mat, context->input_file, W, H))
         {
-                for (size_t j = 0; j < W; j++)
-                {
-                        if (fscanf(context->input_file, "%lf", getloc(context->mat, i, j, W)) != 1)
-                        {
-                                return clear_context(context, ERROR_DATA_READING);
-                        }
-                }
+                return clear_context(context, ERROR_DATA_READING);
         }
 
         if (fclose(context->input_file))
@@ -171,24 +165,9 @@ int main(int argc, char *argv[])
         }
         else
         {
-                if (fprintf(context->output_file, "%zu %zu\n", W, H) < 0)
+                if (write_filedata(context->Lmat, context->output_file, W, H))
                 {
                         return clear_context(context, ERROR_DATA_WRITING);
-                }
-
-                for (size_t i = 0; i < W; i++)
-                {
-                        for (size_t j = 0; j < W; j++)
-                        {
-                                if (fprintf(context->output_file, "%g ", *getloc(context->Lmat, i, j, W)) < 0)
-                                {
-                                        return clear_context(context, ERROR_DATA_WRITING);
-                                }
-                        }
-                        if (fprintf(context->output_file, "\n") < 0)
-                        {
-                                return clear_context(context, ERROR_DATA_WRITING);
-                        }
                 }
         }
 
