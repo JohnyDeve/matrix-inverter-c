@@ -52,11 +52,13 @@ Example `stderr` output:
 
 ### The Context Structure
 ```c
-typedef struct {
-    FILE *input;
-    FILE *output;
-    double *data;
-    // Other resources
+typedef struct
+{
+        FILE *input_file;
+        FILE *output_file;
+        double *mat;
+        double *Lmat;
+        double *Umat;
 } Context;
 ```
 This architecture allows for centralized resource cleanup in the `clear_context(Context *ctx)` function. 
