@@ -102,8 +102,26 @@ int read_filedata(double *mat, FILE *input_file, size_t W, size_t H)
 
 int write_filedata(double *mat, FILE *output_file, size_t W, size_t H)
 {
-        //TODO
-        return 0;
+        if (fprintf(output_file, "%zu %zu\n", W, H) < 0)
+        {
+                return 1;
+        }
+
+        for (size_t i = 0; i < W; i++)
+        {
+                for (size_t j = 0; j < W; j++)
+                {
+                        if (fprintf(output_file, "%g ", *GETLOC(mat, i, j, W)) < 0)
+                        {
+                                return 1;
+                        }
+                }
+                if (fprintf(output_file, "\n") < 0)
+                {
+                        return 1;
+                }
+        }
+        return SUCCESS;
 }
 
 int main(int argc, char *argv[])
