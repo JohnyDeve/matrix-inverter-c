@@ -35,8 +35,43 @@ static void drop_warning(int warning)
 
 static int clear_context(Context *context, int error_code)
 {
-        //TODO
-        return 0;
+        if (context->mat)
+        {
+                free(context->mat);
+                context->mat = NULL;
+        }
+        if (context->Lmat)
+        {
+                free(context->Lmat);
+                context->Lmat = NULL;
+        }
+        if (context->Umat)
+        {
+                free(context->Umat);
+                context->Umat = NULL;
+        }
+
+        if (context->input_file)
+        {
+                if (fclose(context->input_file))
+                {
+                        drop_warning(WARNING_CANNOT_CLOSE_FILE);
+                }
+                context->input_file = NULL;
+        }
+        if (context->output_file)
+        {
+                if (fclose(context->output_file))
+                {
+                        drop_warning(WARNING_CANNOT_CLOSE_FILE);
+                }
+                context->output_file = NULL;
+        }
+        if (error_code != SUCCESS)
+        {
+                fprintf(stderr, "Error: %s\n", status_message_table[error_code]);
+        }
+        return error_code != SUCCESS;
 }
 
 static double *getloc(double *matrix, size_t i, size_t j, size_t W)
