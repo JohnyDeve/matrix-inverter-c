@@ -22,7 +22,7 @@ The first line must contain two integers: `height` and `width`. These are follow
 ```
 
 **Output File (`output.txt`):**
-Contains the resulting inverse matrix or the message `Inverse matrix does not exist` if the matrix is singular (non-invertible).
+Contains the resulting inverse matrix or the message `no_solution` if the matrix is singular (non-invertible).
 
 ## Build and Usage
 
