@@ -12,7 +12,7 @@ A professional-grade C utility designed to calculate the inverse of a square mat
 
 The program processes plain text files.
 
-**Input File (`input.txt`):**
+**Input File (`input.txt`):**\n
 The first line must contain two integers: `height` and `width`. These are followed by the matrix elements.
 ```text
 3 3
