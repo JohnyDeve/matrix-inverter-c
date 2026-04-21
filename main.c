@@ -8,6 +8,7 @@
 #define ERROR_INCORRECT_COMMAND_ARGS 4
 #define WARNING_CANNOT_CLOSE_FILE 5
 #define ERROR_DATA_WRITING 6
+#define GETLOC(matrix, i, j, W) ((matrix) + ((W) * (i) + (j)))
 
 typedef struct
 {
@@ -72,11 +73,6 @@ static int clear_context(Context *context, int error_code)
                 fprintf(stderr, "Error: %s\n", status_message_table[error_code]);
         }
         return error_code != SUCCESS;
-}
-
-static double *getloc(double *matrix, size_t i, size_t j, size_t W)
-{
-        return matrix + (W * i + j);
 }
 
 static int get_inv_matrix(double *A, double *L, double *U, size_t H, size_t W)
