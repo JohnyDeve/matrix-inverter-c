@@ -76,8 +76,7 @@ static int clear_context(Context *context, int error_code)
 
 static double *getloc(double *matrix, size_t i, size_t j, size_t W)
 {
-        //TODO
-        return matrix;
+        return matrix + (W * i + j);
 }
 
 static int get_inv_matrix(double *A, double *L, double *U, size_t H, size_t W)
