@@ -1,6 +1,6 @@
 # Matrix Inverter (C implementation)
 
-A professional-grade C utility designed to calculate the inverse of a square matrix using **LU Decomposition**. The project focuses on reliability, strict resource management, and robust error handling.
+A Console utility in C language designed to calculate the inverse HxW matrix using the **LU decomposition method**. The program focuses on reliability, strict error handling, and efficient memory management.
 
 ## Core Features
 
