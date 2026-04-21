@@ -22,7 +22,13 @@ The first line must contain two integers: `height` and `width`. These are follow
 ```
 
 **Output File (`output.txt`):**
-Contains the resulting inverse matrix or the message `no_solution` if the matrix is singular (non-invertible).
+Contains the matrix dimensions and resulting inverse matrix or the message `no_solution` if the matrix is singular (non-invertible).
+```text
+3 3
+-24 18 5 
+20 -15 -4 
+-5 4 1
+```
 
 ## Build and Usage
 
@@ -53,4 +59,5 @@ typedef struct {
     // Other resources
 } Context;
 ```
-This architecture allows for centralized resource cleanup in the `clear_context(Context *ctx)` function. This keeps the business logic clean and avoids "if-else nests" when managing pointers and file handles.
+This architecture allows for centralized resource cleanup in the `clear_context(Context *ctx)` function. 
+This keeps the business logic clean and avoids "if-else nests" when managing pointers and file handles.
