@@ -1,4 +1,4 @@
-![C Version](https://shields.io)
+![C Version](https://img.shields.io/badge/logo=c&logoColor=a8b9cc)
 ![License](https://shields.io)
 ![Build](https://shields.io)
 ![Repo Size](https://shields.io)
