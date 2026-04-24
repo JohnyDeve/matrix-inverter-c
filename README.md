@@ -86,4 +86,4 @@ Please ensure that any new code follows the existing `Context`-based error handl
 ## License
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details. 
 
-Developed with focus on efficiency and reliability by [Your Name/Username].
+Developed with focus on efficiency and reliability by [Kuzyakin Ivan/JohnyDeve].
