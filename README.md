@@ -1,4 +1,4 @@
-![C Version](https://img.shields.io/badge/logo=c&logoColor=a8b9cc)
+![](https://img.shields.io/badge/TEXT-HEX-COLOR?style=for-the-badge&logo=с&logoColor=white)
 ![License](https://shields.io)
 ![Build](https://shields.io)
 ![Repo Size](https://shields.io)
