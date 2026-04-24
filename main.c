@@ -31,7 +31,7 @@ static const char *status_message_table[] = {
 
 static void drop_warning(int warning)
 {
-        fprintf(stderr, "Warning: %s\n", status_message_table[warning]);
+        fprintf(stderr, "[WARNING]: %s\n", status_message_table[warning]);
 }
 
 static int clear_context(Context *context, int error_code)
@@ -70,7 +70,7 @@ static int clear_context(Context *context, int error_code)
         }
         if (error_code != SUCCESS)
         {
-                fprintf(stderr, "Error: %s\n", status_message_table[error_code]);
+                fprintf(stderr, "[ERROR]: %s\n", status_message_table[error_code]);
         }
         return error_code != SUCCESS;
 }
@@ -201,7 +201,7 @@ int main(int argc, char *argv[])
 {
         if (argc != 3)
         {
-                fprintf(stderr, "Error: %s\n", status_message_table[ERROR_INCORRECT_COMMAND_ARGS]);
+                fprintf(stderr, "[ERROR]: %s\n", status_message_table[ERROR_INCORRECT_COMMAND_ARGS]);
                 return 1;
         }
 
