@@ -1,3 +1,7 @@
+![C Version](https://shields.io)
+![License](https://shields.io)
+![Build](https://shields.io)
+![Repo Size](https://shields.io)
 # Matrix Inverter (C implementation)
 
 Console utility in C language designed to calculate the inverse HxW matrix using the **LU decomposition method**. The program focuses on reliability, strict error handling, and efficient memory management.
@@ -63,3 +67,23 @@ typedef struct
 ```
 This architecture allows for centralized resource cleanup in the `clear_context(Context *ctx)` function. 
 This keeps the business logic clean and avoids "if-else nests" when managing pointers and file handles.
+
+## Roadmap & Future Improvements
+While the current version is fully functional and stable, the following features are planned for future releases:
+- [ ] Support for binary file formats for faster I/O.
+- [ ] Multithreading support for large-scale matrices using POSIX threads.
+- [ ] SIMD optimization for the LU decomposition core.
+
+## Contributing
+Contributions are welcome! If you find a bug or have a suggestion for optimization:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/improvement`).
+3. Commit your changes.
+4. Push to the branch and open a Pull Request.
+
+Please ensure that any new code follows the existing `Context`-based error handling pattern to maintain memory safety.
+
+## License
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details. 
+
+Developed with focus on efficiency and reliability by [Your Name/Username].
