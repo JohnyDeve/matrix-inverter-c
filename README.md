@@ -1,9 +1,10 @@
 ![](https://img.shields.io/badge/TEXT-HEX-COLOR?style=for-the-badge&logo=с&logoColor=#A8B9CC)
 ![](https://img.shields.io/badge/github-repo-blue?logo=c)
-![](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)(https://cppreference.com)
+[![C Language](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)](https://wikipedia.org)
 ![License](https://shields.io)
 ![Build](https://shields.io)
 ![Repo Size](https://shields.io)
+[![C Language](https://shields.io)](https://wikipedia.org)
 # Matrix Inverter (C implementation)
 
 Console utility in C language designed to calculate the inverse HxW matrix using the **LU decomposition method**. The program focuses on reliability, strict error handling, and efficient memory management.
