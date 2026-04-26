@@ -84,6 +84,7 @@ Please ensure that any new code follows the existing `Context`-based error handl
 
 ## License
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details. 
+
 ---
 ## Contacts & Support
 
@@ -98,7 +99,7 @@ Feel free to reach out for collaboration or questions regarding the implementati
 ### Support the Project
 If this tool helped you or saved you some time, you can support its further development:
 
-[![DonationAlerts](https://img.shields.io/badge/D%20DonationAlerts?style=for-the-badge)](https://www.donationalerts.com/r/kuzakinc)
+[![DonationAlerts](https://img.shields.io/badge/DonationAlerts-F57607?style=for-the-badge)](https://www.donationalerts.com/r/kuzakinc)
 
 ---
 *Maintained with precision and care.*
