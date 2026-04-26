@@ -98,7 +98,7 @@ Feel free to reach out for collaboration or questions regarding the implementati
 ### Support the Project
 If this tool helped you or saved you some time, you can support its further development:
 
-[![DonationAlerts](https://img.shields.io/badge/D%20Donation%20Alerts?style=for-the-badge&labelColor=f57607)](https://www.donationalerts.com/r/kuzakinc)
+[![DonationAlerts](https://img.shields.io/badge/D%20Donation%20Alerts?style=for-the-badge&color=f57607)](https://www.donationalerts.com/r/kuzakinc)
 
 ---
 *Maintained with precision and care.*
