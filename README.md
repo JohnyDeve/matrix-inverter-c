@@ -8,8 +8,8 @@
 
 [![C Language Version](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)](https://wikipedia.org)
 ![License](https://shields.io)
-![Repo Size](https://shields.io)
-![Last Commit](https://shields.io)
+![Repo Size](https://img.shields.io/github/repo-size/JohnyDeve/matrix-inverter-c?style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/JohnyDeve/matrix-inverter-c?style=for-the-badge)
 ![Code Style](https://shields.io)
 
 ---
