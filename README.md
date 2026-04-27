@@ -13,8 +13,6 @@
 ![Code Style](https://shields.io)
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/JohnyDeve/matrix-inverter-c/clang-format-check.yml?event=push&style=for-the-badge)
 
-
-
 ---
 
 # Matrix Inverter (C implementation)
