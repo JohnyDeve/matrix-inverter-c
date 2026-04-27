@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/banner.png" alt="Matrix Inverter Banner" width="700">
+  <img src="./assets/matrix-inverter-c_banner.png" alt="Matrix Inverter Banner" width="700">
 </p>
 
 <h1 align="center">Matrix Inverter</h1>
