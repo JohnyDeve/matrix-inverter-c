@@ -7,24 +7,15 @@
 </p>
 
 <p align="center">
-  <a href="https://wikipedia.org">
-    <img src="https://shields.io" alt="C Version">
-  </a>
-  <a href="https://opensource.org">
-    <img src="https://shields.io" alt="License">
-  </a>
-  <img src="https://img.shields.io/github/repo-size/https%3A%2F%2Fgithub.com%2FJohnyDeve%2F/https%3A%2F%2Fgithub.com%2FJohnyDeve%2Fmatrix-inverter-c%2F
-" alt="Repo Size">
-  <img src="https://shields.io" alt="Last Commit">
-  <img src="https://shields.io" alt="Code Style">
+[![C Language Version](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)](https://wikipedia.org)
+![License](https://shields.io)
+![Repo Size](https://shields.io)
+![Last Commit](https://shields.io)
+![Code Style](https://shields.io)
 </p>
 
 ---
 
-[![C Language](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)](https://wikipedia.org)
-![License](https://shields.io)
-![Build](https://shields.io)
-![Repo Size](https://shields.io)
 # Matrix Inverter (C implementation)
 
 Console utility in C language designed to calculate the inverse HxW matrix using the **LU decomposition method**. The program focuses on reliability, strict error handling, and efficient memory management.
