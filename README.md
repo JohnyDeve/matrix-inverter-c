@@ -7,6 +7,7 @@
 </p>
 
 [![C Language Version](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)](https://wikipedia.org)
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 ![License](https://shields.io)
 ![Repo Size](https://img.shields.io/github/repo-size/JohnyDeve/matrix-inverter-c?style=for-the-badge)
 ![Last Commit](https://img.shields.io/github/last-commit/JohnyDeve/matrix-inverter-c?style=for-the-badge)
