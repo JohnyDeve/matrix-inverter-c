@@ -1,1 +1,20 @@
+name: "Clang-Format Check"
 
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  clang-format-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Run clang-format-check
+        uses: jidicula/clang-format-check@v4.18.0
+        with:
+          check-path: 'main.c'
+          clang-format-version: '18'
+          style: file
