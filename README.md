@@ -118,4 +118,4 @@ If this tool helped you or saved you some time, you can support its further deve
 [![DonationAlerts](https://img.shields.io/badge/DonationAlerts-F57607?style=for-the-badge)](https://www.donationalerts.com/r/kuzakinc)
 
 ---
-Made with precision, care and love by JohnyDeve*
+*Made with precision, care and love by JohnyDeve|Kuzak*
