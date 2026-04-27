@@ -11,9 +11,9 @@
 [![License: MIT](https://img.shields.io/badge/MIT-green?style=for-the-badge)](https://opensource.org/license/mit)
 
 [![GitHub Action](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/JohnyDeve/matrix-inverter-c/actions)
-[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/JohnyDeve/matrix-inverter-c/clang-format-check.yml?event=push&style=for-the-badge&logo=githubactions&logoColor=white&label=clang%20format&labelColor=673DE6)](https://github.com/JohnyDeve/matrix-inverter-c/actions/workflows/clang-format-check.yml)
 ![Repo Size](https://img.shields.io/github/repo-size/JohnyDeve/matrix-inverter-c?style=for-the-badge)
 ![Last Commit](https://img.shields.io/github/last-commit/JohnyDeve/matrix-inverter-c?style=for-the-badge)
+[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/JohnyDeve/matrix-inverter-c/clang-format-check.yml?event=push&style=for-the-badge&logo=githubactions&logoColor=white&label=clang%20format&labelColor=673DE6)](https://github.com/JohnyDeve/matrix-inverter-c/actions/workflows/clang-format-check.yml)
 
 ---
 
