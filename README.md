@@ -6,13 +6,11 @@
   <img src="./readme_assets/matrix-inverter-c_banner.png" alt="Matrix Inverter Banner" width="700">
 </p>
 
-<p align="center">
 [![C Language Version](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)](https://wikipedia.org)
 ![License](https://shields.io)
 ![Repo Size](https://shields.io)
 ![Last Commit](https://shields.io)
 ![Code Style](https://shields.io)
-</p>
 
 ---
 
