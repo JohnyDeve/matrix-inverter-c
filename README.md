@@ -3,10 +3,8 @@
 </p>
 
 <p align="center">
-  <img src="./assets/matrix-inverter-c_banner.png" alt="Matrix Inverter Banner" width="700">
+  <img src="./readme_assets/matrix-inverter-c_banner.png" alt="Matrix Inverter Banner" width="700">
 </p>
-
-<h1 align="center">Matrix Inverter</h1>
 
 <p align="center">
   <a href="https://wikipedia.org">
@@ -15,13 +13,10 @@
   <a href="https://opensource.org">
     <img src="https://shields.io" alt="License">
   </a>
-  <img src="https://shields.io" alt="Repo Size">
+  <img src="https://img.shields.io/github/repo-size/https%3A%2F%2Fgithub.com%2FJohnyDeve%2F/https%3A%2F%2Fgithub.com%2FJohnyDeve%2Fmatrix-inverter-c%2F
+" alt="Repo Size">
   <img src="https://shields.io" alt="Last Commit">
   <img src="https://shields.io" alt="Code Style">
-</p>
-
-<p align="center">
-  <strong>A high-performance C utility for matrix inversion using LU decomposition with robust resource management.</strong>
 </p>
 
 ---
