@@ -1,3 +1,31 @@
+<p align="center">
+  <b>English</b> | <a href="./README.ru.md">Русский</a>
+</p>
+
+<p align="center">
+  <img src="./assets/banner.png" alt="Matrix Inverter Banner" width="700">
+</p>
+
+<h1 align="center">Matrix Inverter</h1>
+
+<p align="center">
+  <a href="https://wikipedia.org">
+    <img src="https://shields.io" alt="C Version">
+  </a>
+  <a href="https://opensource.org">
+    <img src="https://shields.io" alt="License">
+  </a>
+  <img src="https://shields.io" alt="Repo Size">
+  <img src="https://shields.io" alt="Last Commit">
+  <img src="https://shields.io" alt="Code Style">
+</p>
+
+<p align="center">
+  <strong>A high-performance C utility for matrix inversion using LU decomposition with robust resource management.</strong>
+</p>
+
+---
+
 [![C Language](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)](https://wikipedia.org)
 ![License](https://shields.io)
 ![Build](https://shields.io)
