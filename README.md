@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="./readme_assets/inverse-matrix-x-banner.png" alt="Matrix Inverter Banner" width="700">
+  <img src="./readme_assets/inverse-matrix-c-banner.png" alt="Matrix Inverter Banner" width="700">
 </p>
 
 [![C Language Version 11](https://img.shields.io/badge/C11-00599C?style=for-the-badge&logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C11_(C_standard_revision))
