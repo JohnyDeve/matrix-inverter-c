@@ -104,7 +104,8 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 ## Contacts & Support
 
 ### Author
-**Your Name** — C Developer & System Architect  
+
+**Kuzyakin Ivan** — C Developer & System Architect  
 Feel free to reach out for collaboration or questions regarding the implementation.
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JohnyDeve)
@@ -117,4 +118,4 @@ If this tool helped you or saved you some time, you can support its further deve
 [![DonationAlerts](https://img.shields.io/badge/DonationAlerts-F57607?style=for-the-badge)](https://www.donationalerts.com/r/kuzakinc)
 
 ---
-*Maintained with precision and care.*
+Made with precision, care and love by JohnyDeve*
