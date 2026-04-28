@@ -89,7 +89,7 @@ typedef struct
 - [ ] SIMD-оптимизация для ядра разложения LU.
 
 ## Contributing
-Помощь контрибьюторов и энтузиастов приветствуются! Если вы нашли ошибку или у вас есть предложения по оптимизации:
+Помощь контрибьюторов и энтузиастов приветствуется! Если вы нашли ошибку или у вас есть предложения по оптимизации:
 1. Сделайте Fork репозитория.
 2. Создайте новую ветку (`git checkout -b feature/improvement`).
 3. Внесите изменения. (`git commit -m "your description"`)
@@ -113,7 +113,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/kuzak1n)
 
 ### Support the Project
-Если этот инструмент помог или сэкономил вам время, вы можете поддержать его дальнейшее развитие и развитие други проектов от автора:
+Если этот инструмент помог или сэкономил вам время, вы можете поддержать его дальнейшее развитие и развитие других проектов от автора:
 
 [![DonationAlerts](https://img.shields.io/badge/DonationAlerts-F57607?style=for-the-badge)](https://www.donationalerts.com/r/kuzakinc)
 
