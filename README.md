@@ -7,7 +7,6 @@
 </p>
 
 [![C Language Version 11](https://img.shields.io/badge/C11-00599C?style=flat-square&logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C11_(C_standard_revision))
-[![Code Style](https://img.shields.io/badge/Code%20Style-clang--format-673DE6?style=flat-square)](https://clang.llvm.org/docs/ClangFormat.html)
 [![License: MIT](https://img.shields.io/badge/MIT-green?style=flat-square)](https://opensource.org/license/mit)
 
 [![GitHub Action](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)](https://github.com/JohnyDeve/matrix-inverter-c/actions)
