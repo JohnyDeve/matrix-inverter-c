@@ -6,14 +6,14 @@
   <img src="./readme_assets/matrix-inverter-c_banner.png" alt="Matrix Inverter Banner" width="700">
 </p>
 
-[![C Language Version 11](https://img.shields.io/badge/C11-00599C?style=for-the-badge&logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C11_(C_standard_revision))
-[![Code Style](https://img.shields.io/badge/Code%20Style-clang--format-673DE6?style=for-the-badge)](https://clang.llvm.org/docs/ClangFormat.html)
-[![License: MIT](https://img.shields.io/badge/MIT-green?style=for-the-badge)](https://opensource.org/license/mit)
+[![C Language Version 11](https://img.shields.io/badge/C11-00599C?style=flat-square&logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C11_(C_standard_revision))
+[![Code Style](https://img.shields.io/badge/Code%20Style-clang--format-673DE6?style=flat-square)](https://clang.llvm.org/docs/ClangFormat.html)
+[![License: MIT](https://img.shields.io/badge/MIT-green?style=flat-square)](https://opensource.org/license/mit)
 
-[![GitHub Action](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/JohnyDeve/matrix-inverter-c/actions)
-![Repo Size](https://img.shields.io/github/repo-size/JohnyDeve/matrix-inverter-c?style=for-the-badge)
-![Last Commit](https://img.shields.io/github/last-commit/JohnyDeve/matrix-inverter-c?style=for-the-badge)
-[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/JohnyDeve/matrix-inverter-c/clang-format-check.yml?event=push&style=for-the-badge&logo=githubactions&logoColor=white&label=clang%20format&labelColor=673DE6)](https://github.com/JohnyDeve/matrix-inverter-c/actions/workflows/clang-format-check.yml)
+[![GitHub Action](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)](https://github.com/JohnyDeve/matrix-inverter-c/actions)
+![Repo Size](https://img.shields.io/github/repo-size/JohnyDeve/matrix-inverter-c?style=flat-square)
+![Last Commit](https://img.shields.io/github/last-commit/JohnyDeve/matrix-inverter-c?style=flat-square)
+[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/JohnyDeve/matrix-inverter-c/clang-format-check.yml?event=push&style=flat-square&logo=githubactions&logoColor=white&label=clang%20format&labelColor=673DE6)](https://github.com/JohnyDeve/matrix-inverter-c/actions/workflows/clang-format-check.yml)
 
 ---
 
